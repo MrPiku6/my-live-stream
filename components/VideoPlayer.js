@@ -27,7 +27,7 @@ export default function VideoPlayer() {
         await loadScript('https://cdn.jsdelivr.net/npm/plyr@3.7.8/dist/plyr.min.js')
 
         const video = videoRef.current
-        const source = "http://116.90.120.149:8000/play/a0bv/index.m3u8"
+        const source = "https://sonypartnersdaimenew.akamaized.net/hls/live/2018457/DAI35ME-EVSN/master.m3u8?hdnea=exp=1761741115~acl=/*~id=17642644127661702981991194729298~hmac=5e05797633e2dc7bee6cdc422aec540762784f729b4a1210855ff19e3a972915"
 
         if (window.Hls && window.Hls.isSupported()) {
           const hls = new window.Hls()
