@@ -27,7 +27,7 @@ export default function VideoPlayer() {
         await loadScript('https://cdn.jsdelivr.net/npm/plyr@3.7.8/dist/plyr.min.js')
 
         const video = videoRef.current
-        const source = "https://sonypartnersdaimenew.akamaized.net/hls/live/2018457/DAI35ME-EVSN/master.m3u8?hdnea=exp=1761741115~acl=/*~id=17642644127661702981991194729298~hmac=5e05797633e2dc7bee6cdc422aec540762784f729b4a1210855ff19e3a972915"
+        const source = "https://live-bpk.cdn.hotstar.com/hls/live/2024725/inallow-ausvsind-odi-2025/hin/1540055446/15mindvrm01e180f73dc2da4bd58f29d18a30b8bfc329october2025/master_ap.m3u8?a=ns&hdnea=exp=1761730545~acl=/hls/live/2024725/inallow-ausvsind-odi-2025/hin/1540055446/15mindvrm01e180f73dc2da4bd58f29d18a30b8bfc329october2025/master_ap~ttl=1800~type=paid~data=ip=tU7EIwgCRXvWpwtUZtXCwM7nFnr61tMpgfeQ4mhCky5r-userid=aAOAWDscah7hJBUCDiFIao6XHlWHBtW0dqVIVTwUE4m3-did=v9zk75tvT0dSumgP8EtpbV0uKTAJoUCFOJmBgyQVaif7-cc=in-de=1-pl=web-ap=25.10.03.0-ut=free-fpassv2-~hmac=dbeab759758232570ce1a2b071ce2eaf43fcbbe537deb032ecc643b779e3976b"
 
         if (window.Hls && window.Hls.isSupported()) {
           const hls = new window.Hls()
