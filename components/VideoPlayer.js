@@ -27,7 +27,7 @@ export default function VideoPlayer() {
         await loadScript('https://cdn.jsdelivr.net/npm/plyr@3.7.8/dist/plyr.min.js')
 
         const video = videoRef.current
-        const source = "https://in-mc-fdlive.fancode.com/mumbai/137833_english_hls_45d3a8d78e21529_1adfreeta-di_h264/index.m3u8"
+        const source = "https://amg01269-amg01269c1-sportstribal-emea-5204.playouts.now.amagi.tv/playlist/amg01269-willowtvfast-willowplus-sportstribalemea/playlist.m3u8"
 
         if (window.Hls && window.Hls.isSupported()) {
           const hls = new window.Hls()
